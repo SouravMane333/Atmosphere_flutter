@@ -52,7 +52,7 @@ class _HomeState extends State<Home> {
       print("NA");
     } else {
       temp = ((info["temp_value"]).toString()).substring(0, 4);
-      air = ((info["air_speed_value"]).toString()).substring(0, 3);
+      air = ((info["air_speed_value"]).toString()).substring(0, 4);
     }
 
     String icon = info['icon_value'];
